@@ -1,0 +1,32 @@
+# Node.js dependencies
+
+node_modules/
+
+# React build output
+
+client/build/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+
+# Virtual environments
+
+venv/
+.venv/
+
+# IDE settings
+
+.vscode/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+~$* 

@@ -1,0 +1,415 @@
+.home {
+  min-height: 100vh;
+  background-color: gray;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Entire heading section */
+.header {
+  background-color: navy;
+  color: white;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  margin: 0 0 20px 0;
+}
+
+.header h2 {
+  margin: 10px 0;
+}
+
+.header h3 {
+  margin: 10px 0;
+}
+
+/* Sommaire */
+.sommaire {
+  color: navy;
+  margin-top: 35px;
+}
+
+/* Exercise links */
+.exercise-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.exercise-list li {
+  margin: 18px 0;
+}
+
+.exercise-list a {
+  color: purple;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.exercise-list a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   PAGE DES EXERCICES
+   ========================================= */
+
+.exercise-page {
+  min-height: 100vh;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* Titre de l'exercice */
+
+.exercise-page h1 {
+  background-color: navy;
+  color: white;
+  margin: 0;
+  padding: 22px;
+  font-size: 28px;
+}
+
+/* Description */
+
+.exercise-page > p {
+  margin: 0;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+/* Sections */
+
+.exercise-page h2 {
+  color: navy;
+  font-size: 20px;
+}
+
+/* Zone des formulaires */
+
+.exercise-page input {
+  padding: 8px;
+  width: 230px;
+  margin: 5px;
+  border: 1px solid #aaa;
+}
+
+/* Boutons */
+
+.exercise-page button {
+  background-color: navy;
+  color: white;
+  border: 1px solid #444;
+  padding: 9px 18px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.exercise-page button:hover {
+  background-color: purple;
+}
+
+/* Résultats */
+
+.exercise-page p strong {
+  color: navy;
+}
+
+/* Lien Sommaire */
+
+.exercise-page a {
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* =========================================
+   INFORMATIONS BLOCKCHAIN
+   ========================================= */
+
+.exercise-page hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 12px 0;
+} 
+
+/* =====================================================
+   EXERCICE 3 - GESTION DES CHAINES
+   ===================================================== */
+
+.ex3-page {
+  width: 95%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background: white;
+  border: 2px solid #222;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TITRE */
+
+.ex3-title {
+  background: #173b8f;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 14px 10px;
+} 
+
+/* ZONE INPUTS */
+
+.ex3-input-area {
+  background: #c8c8c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 12px;
+} 
+
+.ex3-input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ex3-input-group label {
+  color: #173b8f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ex3-input-group input {
+  width: 210px;
+  height: 25px;
+  border: 1px solid #bbb;
+  padding: 2px 7px;
+  box-sizing: border-box;
+}
+
+/* BOUTONS */
+
+.ex3-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 7px;
+  background: white;
+}
+
+.ex3-buttons button {
+  background: #092d64;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 13px;
+  font-size: 11px;
+  cursor: pointer;
+} 
+
+.ex3-buttons button:hover {
+  background: #174d99;
+}
+
+.ex3-disabled-button {
+  cursor: not-allowed !important;
+}
+
+/* RESULTAT */
+
+.ex3-result {
+  margin: 7px 0;
+  min-height: 20px;
+  background: #e9f05a;
+  border-top: 1px solid #b9c200;
+  border-bottom: 1px solid #b9c200;
+  text-align: center;
+  padding: 4px 8px;
+  color: #222;
+  font-size: 13px;
+}
+
+.ex3-result strong {
+  color: #b00000;
+  font-style: italic;
+}
+
+/* SOMMAIRE */
+
+.ex3-sommaire {
+  padding: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ex3-sommaire a {
+  color: #3d176d;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* ESPACE ENTRE SOMMAIRE ET BLOCKCHAIN */
+
+.ex3-separator {
+  height: 25px;
+}
+
+/* CONTENEUR BLOCKCHAIN */
+
+.ex3-blockchain-container {
+  background: #45c52e;
+  border: 3px solid #32a91e;
+  margin: 0 10px 12px 10px;
+  padding: 0 7px 7px 7px;
+}
+
+/* TITRE BLOCKCHAIN */
+
+.ex3-blockchain-title {
+  background: #18e6e6;
+  color: #002b61;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 11px;
+  margin-bottom: 10px;
+}
+
+/* DEUX COLONNES */
+
+.ex3-info-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+/* COLONNES */
+
+.ex3-info-box {
+  border: 1px solid #9be58f;
+  border-radius: 5px;
+  padding: 8px;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+/* TITRE DES COLONNES */
+
+.ex3-info-box-title {
+  color: #c00000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 750px) {
+
+  .ex3-input-area {
+    flex-direction: column;
+  }
+
+  .ex3-info-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .ex3-buttons {
+    flex-wrap: wrap;
+  }
+
+  .ex3-title {
+    font-size: 22px;
+  }
+
+} 
+
+/* =====================================================
+   BLOCKCHAIN INFORMATION
+   ===================================================== */
+
+.blockchain-info {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Chaque bloc d'information */
+
+.blockchain-card {
+  margin-bottom: 8px;
+  background: white;
+  border: 1px solid #d5d5d5;
+}
+
+/* Petit titre bleu */
+
+.blockchain-card-title {
+  background: #5274b5;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+/* Contenu */
+
+.blockchain-card-content {
+  padding: 5px 8px;
+  color: #164d2c;
+  font-size: 10px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.blockchain-card-content p {
+  margin: 3px 0;
+}
+
+.blockchain-card-content strong {
+  color: #111;
+}  
+
+
+/* =====================================================
+   TRANSACTION INFORMATION
+   ===================================================== */
+
+.transaction-info {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.transaction-card {
+  background: white;
+  border: 1px solid #d5d5d5;
+  margin-bottom: 8px;
+}
+
+.transaction-card-title {
+  background: #5274b5;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.transaction-card-content {
+  padding: 5px 8px;
+  color: #164d2c;
+  font-size: 10px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.transaction-card-content p {
+  margin: 4px 0;
+}
+
+.transaction-card-content strong {
+  color: #111;
+} 
